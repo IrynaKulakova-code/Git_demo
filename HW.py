@@ -11,3 +11,4 @@ class Employee:
 
     def get_language(self):
         return f'My language is {self.language}'
+
