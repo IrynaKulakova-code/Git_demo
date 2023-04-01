@@ -12,3 +12,6 @@ class Employee:
     def get_language(self):
         return f'My language is {self.language}'
 
+    def set_language(self, newlang):   # присвоть новое значение через метод set
+        self.language = newlang
+
